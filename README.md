@@ -12,7 +12,6 @@ PathPredict is a web-based application designed to assist students in identifyin
 - *Comprehensive Career Insights*: Provides detailed recommendations based on test results.
 - *User-Friendly Dashboard*: Allows users to view and manage their test results and profiles.
 - *Secure Login System*: Ensures user data privacy and security.
-- *Interactive Chatbot*: Offers instant career-related assistance.
 
 ---
 
