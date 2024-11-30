@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="signup" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Sign up </h2>
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <div class="phone-group">
+                        <select id="country-code">
+                            <option value="+91">+91</option>
+                            
+                        </select>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password">Create Password</label>
+                    <input type="password" id="password" name="password" placeholder="Create password" required>
+                </div>
+                <button type="submit" class="btn" onclick="window.location.href='domainselection.html'">Continue</button>
+            </form>
+            <!-- link here -->
+            <p class="login-link">Already have an account? <a href="loginpage.html">Sign in</a></p>
+            <!-- <div class="contact-info">
+                <a href="tel:+918744987449">+91 8744987449</a>
+            </div> -->
+        </div>
+        <div class="info-container">
+            <div class="info-content">
+                <img src="signup.jpg" alt="Student Image">
+                <div class="info-text">
+                    <p>Enable students to identify their best-fit career with our world-class career assessment and personalized guidance.</p>
+                    <div class="info-stats">
+                        <!-- <div>500+ New Students</div>
+                        <div>30+ Professional Teachers</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

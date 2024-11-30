@@ -1,0 +1,104 @@
+.navbar {
+    background-color: #1381ef;
+    padding: 10px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+}
+
+.card_outlet {
+    padding: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div {
+    margin-top: 20px;
+}
+
+div h1 {
+    color: #2f80ed;
+    font-size: 2rem;
+    margin: 0;
+}
+
+div h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+/* Card container and card styles */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer illustration */
+footer {
+    margin-top: 40px;
+    position: relative;
+}
+
+.background-illustration {
+    height: 150px;
+    background: url('illustration.png') no-repeat center center;
+    background-size: contain;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Library</title>
+  <link rel="stylesheet" href="a.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>Career Library</h1>
+      <input type="text" placeholder="Search" id="searchBox">
+      <button onclick="searchCareers()">Search</button>
+    </div>
+  </header>
+  
+  <main>
+    <aside>
+      <ul class="categories">
+        <li>All Careers</li>
+        <li>Design & Arts</li>
+        <li>Media & Communication</li>
+        <li>Human Service & Social Science</li>
+        <li>Business Management</li>
+        <li>Marketing & Advertising</li>
+        <li>Hospitality & Tourism</li>
+        <li>Accounts & Finance</li>
+        <li>Information Technology</li>
+        <li>Agriculture & Environment</li>
+        <li>Health Science</li>
+        <li>Science, Maths & Engineering</li>
+        <li>Bio Science & Research</li>
+      </ul>
+    </aside>
+    
+    <section class="careers-grid">
+      <div class="career-card" onclick="window.location.href='f_detail.html'">
+        <img src="fashion.png" alt="Fashion Designing" width="50px" >
+        <h3>Fashion Designing</h3>
+      </div>
+      <div class="career-card" onclick="window.location.href='i_detail.html'">
+        <img src="interior.jpg" alt="Interior Designing">
+        <h3>Interior Designing</h3>
+      </div>
+      <div class="career-card" onclick="window.location.href='g_detail.html'">
+        <img src="graphic.jpg" alt="Graphical Designing">
+        <h3>Graphical Designing</h3>
+      </div>
+      <div class="career-card">
+        <img src="performing.avif" alt="Performing Arts">
+        <h3>Performing Arts</h3>
+      </div>
+    </section>
+  </main>
+
+  <script src="a.js"></script>
+</body>
+</html>

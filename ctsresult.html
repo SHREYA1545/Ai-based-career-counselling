@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Results</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="results-container">
+    <h1>Available Colleges</h1>
+    <ul id="collegeList">
+      <!-- Colleges will be populated here -->
+    </ul>
+  </div>
+
+  <script>
+    // Ensure the college data is available in localStorage and retrieve it
+    const collegeList = document.getElementById('collegeList');
+    const colleges = JSON.parse(localStorage.getItem('colleges'));
+
+    // Check if there are any colleges that match the selected criteria
+    if (colleges && colleges.length > 0) {
+      // Loop through the colleges and create a list item for each college
+      colleges.forEach(college => {
+        const li = document.createElement('li');
+        // Display each college's name, city, and branch
+        li.textContent = `${college.college} (${college.city}) - Branch: ${college.branch}`;
+        collegeList.appendChild(li);
+      });
+    } else {
+      // If no colleges were found, display a message

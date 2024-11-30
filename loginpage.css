@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Left Section */
+.left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f8ff;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.graduation-img {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.info-text {
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Right Section */
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Login Options */
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login-option {
+    background: none;
+    border: none;
+    color: #0073e6;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.login-option.active {
+    border-bottom: 2px solid #0073e6;
+}
+
+.login-option:hover {
+    color: #005bb5;
+}
+
+/* Login Form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.forgot-link {
+    text-align: right;
+    margin-bottom: 20px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+/* Signup Text */
+.signup-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-text a {
+    color: #0073e6;
+    text-decoration: none;
+}

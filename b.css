@@ -1,0 +1,133 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+   
+  }
+  
+  .navbar input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    
+  }
+  
+  .navbar button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+   
+  }
+  
+  .navbar button:hover {
+    background-color: #004999;
+    
+  }
+  
+  /* Layout Styles */
+  main {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  /* Sidebar Styles */
+  aside {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .categories {
+    list-style: none;
+    padding: 0;
+    position: fixed;
+  }
+  
+  .categories li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .categories li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Careers Grid Styles - Two Cards Per Row */
+  .careers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two cards in a row */
+    gap: 5px;
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto; /* Center the grid */
+  }
+  
+  /* Career Card Styles */
+  .career-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 350px; /* Set the width to 80px */
+    height: 350px; /* Set the height to 80px */
+    margin-bottom: 60px; /* Maintain the spacing */
+
+  }
+  
+  .career-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .career-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .career-card h3 {
+    margin: 15px 0 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .careers-grid {
+      grid-template-columns: 1fr; /* One card per row on smaller screens */
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .career-card img {
+      height: 150px;
+    }
+  }
+  

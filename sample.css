@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.hero-section {
+    background: linear-gradient(to bottom, #3a77e0, #3a77e0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-section h1 {
+    margin-top: 0;
+}
+
+.hero-section p {
+    margin: 10px 0;
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+.tests-intro {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    margin: 20px 0;
+}
+
+.tests-intro h2 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.test-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    text-align: center;
+    background: rgb(240, 238, 238);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0 0;
+}
+.card {
+    opacity: 0;
+    transform: scale(0.8); 
+    transition: opacity 0.5s ease, transform 1s ease;
+}
+
+.card.visible {
+    opacity: 1;
+    transform: scale(1); 
+}

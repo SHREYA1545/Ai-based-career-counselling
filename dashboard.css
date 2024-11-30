@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #1381ef;
+    padding: 10px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+}
+.card_outlet{
+    padding: 30px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Your Perfect Career</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">PathPredict</h1>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li ><a href="#">More</a>
+                    </li>
+                    <li><a href="loginpage.html" class="get-started">Login</a></li>
+                    <li><a href="signup.html" class="get-started">Sign up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h2>Discover Your Perfect Career by unlocking your true potential</h2>
+            <p>Let AI guide your career decisions. Our AI-driven career guidance platform empowers you to make informed decisions about your future. Through personalized assessments, expert advice, and real-time data analysis, we help you discover your ideal career path with confidence.</p>
+            <button  onclick="window.location.href='signup.html'" class="btn-primary">Get Started</button>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="container">
+            <!-- <h3>Career Assessment | Personalised Guidance | Profile Building | Virtual Internships | College Roadmap Planning | College Applications | Scholarship Hunt</h3> -->
+            <img src="img.jpg" alt="Career Options">
+        </div>
+ </section>
+ <h2 class="heading1">Your Path to Career Success</h2>
+ <h4 class="heading2"> 
+    Our career planning process is designed to help you identify your strengths,
+     receive personalized guidance, and create a clear roadmap for success. With our expert support, you'll gain the confidence and 
+     insights needed to make informed career choices and achieve your professional goals.</h4>
+     <section class="career-section">
+        <div class="career-matches">
+            <h2>Top 5 Career Matches</h2>
+            <ul class="career-list">
+                <li class="career-item ethical">Ethical Hacking</li>
+                <li class="career-item graphic">Animation Graphic</li>
+                <li class="career-item architecture">Architecture</li>
+                <li class="career-item navy">Merchant Navy</li>
+                <li class="career-item defence">Defence</li>
+            </ul>
+            <img src="counsiling.jpg" width="600px">
+        </div>
+        
+        <div class="steps">
+            <h2>How do we help?</h2>
+            <p>3 Simple Steps for Career Selection & Planning</p>
+
+            <div class="step">
+                <h3>Step 01</h3>
+                <h4>Psychometric Assessment</h4>
+                <p>Pathpredict's top 5 career recommendations generated for you. According to yuor interest and possion.</p>
+                <button onclick="downloadReport()">Download Sample Report</button>
+                <p>You can download your test report.</p>
+            </div>
+
+            <div class="step">
+                <h3>Step 02</h3>
+                <h4>In-person Counselling</h4>
+                <p>Counsellers will help you for chossing your career based on your test report and your answers.</p>
+            </div>
+            
+            <div class="step">
+                <h3>Step 03</h3>
+                <h4>Selection of college</h4>
+                <p>Sellect the college that sutiable for you according to your marks obtained in entrance exams.</p>
+            </div>
+
+            <div class="step">
+                <h3>Step 04</h3>
+                <h4>Planning and Preparation</h4>
+                <p>Seek guidance to plan the next steps and achieve your career goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        
+    <div class="container">
+        <h1>Our Counselling Services</h1>
+        <p>CareerGuide brings to you scientific and meticulously designed services to discover your true potential and interests, learning styles, and skills.</p>
+        
+        <div class="tabs">
+            <button ng-repeat="tab in mainCtrl.tabs" 
+                    ng-class="{active: mainCtrl.activeTab === tab}" 
+                    ng-click="mainCtrl.selectTab(tab)">
+                {{ tab }}
+            </button>
+        </div>
+        
+        <div class="programs">
+            <div class="card" ng-repeat="program in mainCtrl.programs">
+                <img ng-src="{{ program.image }}" alt="{{ program.title }}">
+                <h3>{{ program.title }}</h3>
+                <ul>
+                    <li>{{ program.features }}</li>
+                </ul>
+                <div class="pricing">
+                    <span class="original-price">{{ program.originalPrice | currency }}</span>
+                    <span class="discounted-price">{{ program.discountedPrice | currency }}</span>
+                </div>
+                <button class="view-btn">View Program</button>
+            </div>
+        </div>
+    </div>
+
+
+    </section>
+        
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mindler Clone. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="homepage.js"></script>
+</body>
+</html>
+1

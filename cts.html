@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering College Selector</title>
+  <link rel="stylesheet" href="cts.css">
+</head>
+<body background="backing.jpeg" width="100vh">
+  <div class="form-container">
+    <h1>Select Your Preferences</h1>
+    <form id="selectionForm">
+      <label for="city">City</label>
+      <select id="city" required>
+        <option value="" disabled selected>Select a city</option>
+        <!-- Cities populated dynamically -->
+      </select>
+
+      <label for="branch">Engineering Branch</label>
+      <select id="branch" required>
+        <option value="" disabled selected>Select a branch</option>
+        <!-- Branches populated dynamically -->
+      </select>
+
+      <button id="nextButton" disabled type="button">Next</button>
+    </form>
+  </div>
+
+  <!-- Hidden Results Section -->
+  <div class="results-container" id="resultsContainer" style="display: none;">
+    <h2>Available Colleges</h2>
+    <ul id="collegeList">
+      <!-- Colleges will be populated here dynamically -->
+    </ul>
+    <button id="backButton" type="button">Back</button>
+  </div>
+
+  <script src="cts.js"></script>
+</body>
+</html>

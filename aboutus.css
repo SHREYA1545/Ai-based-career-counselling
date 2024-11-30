@@ -1,0 +1,169 @@
+/* Global styles */
+/* Updated .about-us styles for a single-line intro */
+.about-us {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 1000px; /* Increase max-width for a wider layout */
+    margin: 0 auto;
+}
+
+.about-us h2 {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.about-us .intro {
+    font-size: 16px; /* Slightly smaller font */
+    color: #555;
+    line-height: 1.6;
+    margin: 0 auto 40px;
+    max-width: 800px; /* Adjusted to control width of the intro text */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 24px;
+    color: #000;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header nav .active {
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+header button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #0056b3;
+}
+
+/* About Us section styles */
+.about-us {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-us h2 {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.about-us .intro {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin: 20px 0 40px;
+}
+
+.features, .mission, .vision {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.features h3, .mission h3, .vision h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features ul li {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.features ul li::before {
+    content: "✔";
+    color: #007bff;
+    position: absolute;
+    left: 0;
+}
+
+.features ul li strong {
+    color: #007bff;
+}
+
+.mission p, .vision p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Button style */
+button {
+    margin-top: 40px;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+}

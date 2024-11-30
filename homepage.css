@@ -1,0 +1,303 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading1{
+   
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 70px;
+
+}
+ .heading2{
+   
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 26px;
+}
+.header, .hero, .features, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 5px;
+    position: static;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+}
+
+.get-started {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero {
+    background-color: #f0f8ff;
+    padding: 50px 20px;
+    height: 120px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.hero p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features {
+    padding: 20px;
+    background: #f8f8f8;
+}
+
+.features h3 {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.features img {
+    max-width: 100%;
+    height: 300px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.career-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.career-matches {
+    max-width: 300px;
+}
+
+.career-matches h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.career-list {
+    list-style: none;
+    padding: 0;
+}
+
+.career-item {
+    padding: 8px;
+    margin: 5px 0;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Different colors for each career */
+.ethical { background-color: #f56363; }
+.graphic { background-color: #f5a563; }
+.architecture { background-color: #63aff5; }
+.navy { background-color: #63d9f5; }
+.defence { background-color: #63f5a2; }
+
+.steps {
+    max-width: 400px;
+}
+
+.steps h2 {
+    color: #2d9cdb;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.steps p {
+    color: #666;
+    font-size: 14px;
+}
+
+.step {
+    margin-top: 12px;
+}
+
+.step h3 {
+    font-size: 18px;
+    margin: 0;
+    background-color: #070707;
+    color: #f0f0f1;
+    text-align: center;
+}
+
+.step h4 {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    
+}
+
+.step p {
+    font-size: 14px;
+    color: #666;
+}
+
+.step button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.step button:hover {
+    background-color: #ff6347;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #364f6b;
+}
+
+p {
+    margin: 10px 0 30px;
+    font-size: 1em;
+    color: #555;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tabs .active {
+    background-color: #ff595e;
+    color: #fff;
+}
+
+.programs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    color: #364f6b;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.pricing {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #bbb;
+    margin-right: 10px;
+}
+
+.discounted-price {
+    font-weight: bold;
+    color: #ff595e;
+}
+
+.view-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff595e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}

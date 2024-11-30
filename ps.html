@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Psychometric Test</title>
+  <link rel="stylesheet" href="ps.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Psychometric Test</h1>
+    <form id="test-form">
+      <div id="question-pages"></div>
+      <div class="navigation">
+        <button id="prev-btn" onclick="prevPage()" disabled>Previous</button>
+        <button id="next-btn" onclick="nextPage()">Next</button>
+        <button id="submit-btn" style="display: none;" onclick="submitAnswers()">Submit</button>
+      </div>
+    </form>
+  </div>
+  <script src="ps.js"></script>
+</body>
+</html>
